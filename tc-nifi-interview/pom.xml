@@ -17,7 +17,7 @@
 	<parent>
 		<groupId>com.technicallycreative</groupId>
 		<artifactId>tc-nifi-interview-bundle</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.2-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>tc-nifi-interview</artifactId>
@@ -27,23 +27,19 @@
 		<dependency>
 			<groupId>org.apache.nifi</groupId>
 			<artifactId>nifi-api</artifactId>
-			<version>1.12.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.nifi</groupId>
 			<artifactId>nifi-utils</artifactId>
-			<version>1.12.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.nifi</groupId>
 			<artifactId>nifi-mock</artifactId>
-			<version>1.12.1</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
-			<version>1.7.25</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

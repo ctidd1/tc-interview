@@ -19,7 +19,7 @@
     <parent>
         <groupId>com.technicallycreative</groupId>
         <artifactId>tc-nifi-interview-bundle</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>tc-nifi-interview-nar</artifactId>
@@ -37,14 +37,13 @@
         <dependency>
             <groupId>com.technicallycreative</groupId>
             <artifactId>tc-nifi-interview</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.2-SNAPSHOT</version>
         </dependency>
         <dependency> 
 		    <groupId>org.apache.nifi</groupId> 
-		    <artifactId>nifi-standard-services-api-nar</artifactId> 
-		    <version>1.12.1</version> 
-		    <type>nar</type> 
-		</dependency> 
+		    <artifactId>nifi-standard-services-api-nar</artifactId>
+            <type>nar</type>
+		</dependency>
     </dependencies>
 
 </project>
